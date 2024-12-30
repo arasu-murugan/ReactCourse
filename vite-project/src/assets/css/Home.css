@@ -1,0 +1,39 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    
+    align-items: center;
+    background-color: #003366; /* Navy background color */
+    padding: 1rem 2rem;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .navbar-links a {
+    
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffcc00; /* Highlight color on hover */
+  }
+  
+  /* Responsive Design */
+  
+  
