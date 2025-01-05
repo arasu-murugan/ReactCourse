@@ -1,23 +1,5 @@
 import { useState, useEffect } from "react";
 import axios from 'axios';
-
-
-   /* var [ text, settext ] = useState("Kongu");
-    useEffect (()=>{
-        settext("KEC");
-        console.log(settext);
-    },[])
-    return (
-        <section>
-            <h1>Use Effect Example</h1>
-            <input type="text" placeholder="Enter your text" value={text} onChange={(e) => { settext(e.target.value) }} />
-            <h2>Text typed is {text}</h2>
-        </section>
-    )
-    
-    */
-
-
     
     const UseEffect = () => {
         const [post, setPost] = useState([]);
